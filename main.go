@@ -107,6 +107,8 @@ var modules = map[string]func(*powerline) []pwl.Segment{
 	"vgo":                 segmentVirtualGo,
 	"wsl":                 segmentWSL,
 	"nix-shell":           segmentNixShell,
+	"server-name":         segmentServerName,
+	"ipv4":                segmentIPv4,
 }
 
 func comments(lines ...string) string {
