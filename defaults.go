@@ -270,6 +270,12 @@ var defaults = Config{
 			DurationFg: 250,
 			DurationBg: 237,
 
+			ServerNameFg: 254,
+			ServerNameBg: 166,
+
+			IPv4Fg: 250,
+			IPv4Bg: 238,
+
 			HostnameColorizedFgMap: map[uint8]uint8{
 				0:   250,
 				1:   250,
