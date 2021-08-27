@@ -149,4 +149,10 @@ type Theme struct {
 
 	DurationFg uint8
 	DurationBg uint8
+
+	ServerNameFg uint8
+	ServerNameBg uint8
+
+	IPv4Fg uint8
+	IPv4Bg uint8
 }
