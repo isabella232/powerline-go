@@ -106,6 +106,11 @@ var defaults = Config{
 			VenvIndicator: "\uE235",
 		},
 		"flat": {
+			Lock:                 "\uE0A2",
+			Network:              "SSH",
+			NetworkAlternate:     "SSH",
+
+			RepoBranch:     "\uE0A0",
 			RepoDetached:   "\u2693",
 			RepoAhead:      "\u2B06",
 			RepoBehind:     "\u2B07",
