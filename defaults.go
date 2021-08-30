@@ -63,6 +63,7 @@ var defaults = Config{
 	Eval:                 false,
 	Condensed:            false,
 	IgnoreWarnings:       false,
+	RootOnlyUser:         false,
 	Modes: SymbolMap{
 		"compatible": {
 			Lock:                 "RO",

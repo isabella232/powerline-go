@@ -50,6 +50,7 @@ type Config struct {
 	Eval                   bool      `json:"eval"`
 	Condensed              bool      `json:"condensed"`
 	IgnoreWarnings         bool      `json:"ignore-warnings"`
+	RootOnlyUser           bool      `json:"root-only-user"`
 	Modes                  SymbolMap `json:"modes"`
 	Shells                 ShellMap  `json:"shells"`
 	Themes                 ThemeMap  `json:"themes"`

@@ -20,6 +20,9 @@ func segmentUser(p *powerline) []pwl.Segment {
 		background = p.theme.UsernameRootBg
 	} else {
 		background = p.theme.UsernameBg
+		if p.cfg.RootOnlyUser {
+			return []pwl.Segment{}
+		}
 	}
 
 	return []pwl.Segment{{

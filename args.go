@@ -43,6 +43,7 @@ type arguments struct {
 	Eval                   *bool
 	Condensed              *bool
 	IgnoreWarnings         *bool
+	RootOnlyUser           *bool
 }
 
 var args = arguments{
@@ -209,4 +210,8 @@ var args = arguments{
 		"ignore-warnings",
 		defaults.IgnoreWarnings,
 		comments("Ignores all warnings regarding unset or broken variables")),
+	RootOnlyUser: flag.Bool(
+		"root-only-user",
+		defaults.RootOnlyUser,
+		comments("Displays the username only if the current user is root")),
 }

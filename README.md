@@ -268,6 +268,8 @@ Usage of powerline-go:
          Segments sorted by priority, if not enough space exists, the least priorized segments are removed first. Separate with ','
          (valid choices: aws, bzr, cwd, docker, docker-context, dotenv, duration, exit, fossil, gcp, git, gitlite, goenv, hg, host, jobs, kube, load, newline, nix-shell, node, perlbrew, perms, plenv, rbenv, root, shell-var, shenv, ssh, svn, termtitle, terraform-workspace, time, user, venv, vgo, wsl)
          (default "root,cwd,user,host,ssh,perms,git-branch,git-status,hg,jobs,exit,cwd-path")
+  -root-only-user
+         Displays the username only if the current user is root
   -shell string
          Set this to your shell type
          (valid choices: autodetect, bare, bash, zsh)
